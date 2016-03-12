@@ -18,7 +18,7 @@
 
 /************************************************/
 
-#define CRASH_EMAILADDR "forum at www.vuplus-community.net"
+#define CRASH_EMAILADDR "crashlog@dream-multimedia-tv.de"
 #define INFOFILE "/maintainer.info"
 
 #define RINGBUFFER_SIZE 16384
@@ -177,7 +177,7 @@ void bsodFatal(const char *component)
 
 		XmlGenerator xml(f);
 
-		xml.open("BlakHole");
+		xml.open("opendreambox");
 
 		xml.open("enigma2");
 		xml.string("crashdate", tm_str);
